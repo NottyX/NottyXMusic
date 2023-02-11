@@ -76,7 +76,7 @@ node(){
 repo(){
 	# Get git repo if the installer is runned standalone
 	[[ ! "NottyMusicBot" == $(basename -s .git `git config --get remote.origin.url`) ]] &&
-	git clone https://github.com/NottyX/NottyXMusic &&  cd NottyXMusic
+	git clone https://github.com/NottyXD1025/NottyXMusic &&  cd NottyXMusic
 }
 
 
